@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://d27ooej4ta2ts"]
+
+[ext_resource type="PackedScene" uid="uid://bu0lykc5ac4ga" path="res://game/models/bullet/bullet-blank.gltf" id="1_18kda"]
+
+[node name="LiveBullet" type="Node3D"]
+
+[node name="blockbench_export" parent="." instance=ExtResource("1_18kda")]
+
+[editable path="blockbench_export"]
